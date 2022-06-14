@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="calibri-container">
+    <h2>Normal Text</h2>
+    <textarea [(ngModel)]="text"></textarea>
+    <!-- <textarea (input)="onTextUpdate($event)" [value]="text"></textarea> -->
+  </div>
+  <div [class]="styleForTranslator">
+    <h2>Wingdings</h2>
+    <textarea [(ngModel)]="text"></textarea>
+  </div>
+</div>
+
+<!--
+  no brackets = literal assignment
+  square brackets = input binding
+  parentheses = output binding
+-->
